@@ -32,7 +32,7 @@
 
 /*-----Home_Page-----*/
 #home {
-    height: 600px;
+    height: 630px;
     width: 100%;
     background-image: url('Image/Home-background.png');
     background-size: cover;
@@ -67,6 +67,6 @@ img.Home-logo {
     margin-top: 20px;
 }
 .kid-home{
-    
+
 }
 /*-----END Home_Page-----*/
