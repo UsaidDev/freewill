@@ -1,32 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
 }
 
-
 .nav-ban {
     border-radius: 35.191px;
     background: linear-gradient(100deg, #2E3192 -70.7%, #2991D3 125.85%);
-    color: white; 
+    color: white;
     cursor: pointer;
 }
 
-
 .nav-ban:hover {
     background: linear-gradient(100deg, #2E3192 -70.7%, #2991D3 125.85%);
-    color: white; 
+    color: white;
 }
-
 
 .nav-item a.nav-link {
     font-family: sans-serif;
     font-size: 20px;
- 
 }
 
 .nav-item a.nav-link:hover {
-    color: #2991D3; 
+    color: #2991D3;
 }
 
 /*--Navbar Completed--*/
+
+/*-----Home_Page-----*/
+#home {
+    height: 600px;
+    width: 100%;
+    background-image: url('Image/Home-background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-title {
+    color: #2E3192;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+img.Home-logo {
+    width: 250px;
+    height: 61px;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.kid-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 20px;
+}
+.kid-home{
+    
+}
+/*-----END Home_Page-----*/
