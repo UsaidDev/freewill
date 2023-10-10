@@ -238,3 +238,23 @@ img.Home-logo {
 .services-therd-title{
     font-size: 25px;
 }
+
+/*-----Team------*/
+@media (min-width:300px){
+    #team {
+        height: 400px;
+        width: auto;
+        background-color:white;
+    }
+}
+@media(min-width:1200px){
+    #team {
+        height: 400px;
+        width: auto;
+        background-color: white;
+    }
+}
+
+
+
+/*----End Team-----*/
