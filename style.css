@@ -239,22 +239,42 @@ img.Home-logo {
     font-size: 25px;
 }
 
-/*-----Team------*/
-@media (min-width:300px){
-    #team {
+/*-----Contact------*/
+
+
+@media(max-width:500px){
+    #contact{
         height: 400px;
         width: auto;
-        background-color:white;
-    }
-}
-@media(min-width:1200px){
-    #team {
-        height: 400px;
-        width: auto;
-        background-color: white;
+        background-color: red;
     }
 }
 
+@media(max-width:1400px){
+    #contact{
+        height: 400px;
+        width: auto;
+        background-color: #f0f2f5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.form{
+    width: auto;
+    height: 340px;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    gap: 10px;
+    justify-content: center;
+    transition: 0.3s;
+}
+.form:hover{
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+.form-text{
+    font-family: sans-serif;
+}
 
-
-/*----End Team-----*/
+/*---End Contact----*/
